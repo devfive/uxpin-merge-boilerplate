@@ -6,6 +6,7 @@ const Button = (props) => (
   <ButtonStyles {...props}>
     {props.icon}
     {props.children}
+    Change
   </ButtonStyles>
 );
 
